@@ -1,0 +1,15 @@
+.root-page {
+  /* CSS Variables */
+  --padding-vertical: 10px;
+  --padding-horizontal: 20px;
+}
+
+.nav-button {
+  text-decoration-line: none;
+  padding-top: var(--padding-vertical);
+  padding-bottom: var(--padding-vertical);
+  padding-left: var(--padding-vertical);
+  padding-right: var(--padding-vertical);
+  border: 1px solid black;
+  height: fit-content;
+}
