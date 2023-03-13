@@ -1,9 +1,9 @@
 "use client";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AuthStateType, authStoreActions } from "../../store";
+import { localStorageKeys } from "misc/LocalStorageKeys";
 
 export default function LoginPage({ params }: any) {
   // Hooks
@@ -23,8 +23,8 @@ export default function LoginPage({ params }: any) {
   // Handling Login
   const handleLogin = () => {
     // Store username, password & usertype into localstorage
-    localStorage.setItem("userType", userType);
-    localStorage.setItem("userName", userName);
+    localStorage.setItem(localStorageKeys.userType, userType);
+    localStorage.setItem(localStorageKeys.userName, userName);
 
     // Redirect to "/home"
     router.push("/home");
