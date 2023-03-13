@@ -6,7 +6,7 @@ This is a basic implementation of [NextJS 13](https://nextjs.org/) with [Redux T
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+1. Clone the repository: `git clone https://github.com/Prasanth-Bheemarasetty/nextjs-app-dir-redux-toolkit.git`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
 
