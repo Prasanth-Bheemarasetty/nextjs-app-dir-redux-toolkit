@@ -1,6 +1,6 @@
 "use client";
 
-import { localStorageKeys } from "@/misc/LocalStorageKeys";
+import { localStorageKeys } from "misc/LocalStorageKeys";
 import React, { Fragment } from "react";
 
 export default function HomePage() {

@@ -1,5 +1,5 @@
 "use client";
-import { localStorageKeys } from "@/misc/LocalStorageKeys";
+import { localStorageKeys } from "misc/LocalStorageKeys";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { Fragment, useEffect } from "react";
